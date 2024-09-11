@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   scrape:
-    runs-on: [self-hosted, x64, Linux, ets, gwam, non-delivery]
+    runs-on: [ubuntu-22.40]
     steps:
       - name: Check out this repo
         uses: actions/checkout@v2
